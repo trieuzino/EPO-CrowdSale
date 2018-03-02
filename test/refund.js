@@ -19,7 +19,7 @@ contract('Ether is refunded', function(accounts) {
   let makerAddress = maker;
   let makerAmount = 100;
   let takerAddress = taker;
-  // let takerAmount = 100000000
+  // let takerAmount = 10000000000
   let takerAmount = web3.toWei(1, "ether")
   let time = 60000;
   let expiration = new Date().getTime() + time;
